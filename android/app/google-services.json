@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56997335639",
+    "project_id": "diatrofi-app-f1701",
+    "storage_bucket": "diatrofi-app-f1701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56997335639:android:f9d008f4fd20de59e0c912",
+        "android_client_info": {
+          "package_name": "com.example.diatrofi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqw0L3CBfrIw7wEPGAVTloiwdAUpuJ3-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

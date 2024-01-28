@@ -1,0 +1,297 @@
+name: diatrofi
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  provider: ^6.1.1
+  flutter:
+    sdk: flutter
+  localization: ^ 2.1.0
+  flutter_colorpicker: ^1.0.3
+  json_annotation: ^4.4.0
+  sqflite: ^2.0.2
+  path_provider: ^2.0.9
+  scoped_model: ^2.0.0-nullsafety.0
+  get_it: ^7.2.0
+  firebase_core: ^2.24.2
+  firebase_database: ^10.4.0
+  firebase_storage: ^11.6.0
+  cloud_firestore: ^4.14.0
+  flutter_spinkit: ^5.1.0
+  firebase_auth: ^4.16.0
+  after_layout: ^1.1.0
+  cached_network_image: ^3.2.0
+  http: ^1.2.0
+  shared_preferences: ^2.0.13
+  smooth_page_indicator: ^1.0.0+2
+  url_launcher: ^6.0.20
+  webview_flutter: ^4.4.4
+  charts_common: ^0.12.0
+  charts_flutter: ^0.12.0
+  fl_chart: ^0.66.1
+  openfoodfacts: ^3.3.2
+  settings_ui: ^2.0.2
+  mockito: ^5.0.17
+  get: ^4.6.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/untitled-design1-1.png
+    - assets/untitled-design1-1-5Ak.png
+    - assets/rectangle-76.png
+    - assets/.png
+    - assets/untitled-design-1.png
+    - assets/-Bun.png
+    - assets/rectangle-76-kWx.png
+    - assets/line-42.png
+    - assets/untitled-design-1-pVS.png
+    - assets/line-5.png
+    - assets/auto-group-kt3i.png
+    - assets/line-32.png
+    - assets/-ijv.png
+    - assets/group-240.png
+    - assets/line-31.png
+    - assets/untitled-design1-2.png
+    - assets/line-41.png
+    - assets/line-30.png
+    - assets/line-33.png
+    - assets/fa-group.png
+    - assets/group-48.png
+    - assets/line-40.png
+    - assets/rectangle-76-tsv.png
+    - assets/untitled-design-1-zCk.png
+    - assets/line-7.png
+    - assets/rectangle-76-qAk.png
+    - assets/game-icons-progression.png
+    - assets/line-32-TY8.png
+    - assets/line-6.png
+    - assets/line-34.png
+    - assets/line-30-NB6.png
+    - assets/group-156.png
+    - assets/group-8.png
+    - assets/line-34-aYU.png
+    - assets/group-7.png
+    - assets/line-29.png
+    - assets/calendarmonth.png
+    - assets/group-245.png
+    - assets/ion-book.png
+    - assets/line-29-zYt.png
+    - assets/line-4.png
+    - assets/line-33-byE.png
+    - assets/line-8.png
+    - assets/line-32-UdS.png
+    - assets/line-29-WKE.png
+    - assets/rectangle-33.png
+    - assets/line-4-set.png
+    - assets/line-10.png
+    - assets/line-28.png
+    - assets/group-251.png
+    - assets/fa-group-Hoi.png
+    - assets/icon-person.png
+    - assets/line-9.png
+    - assets/game-icons-progression-8Hr.png
+    - assets/untitled-design1-1-DTi.png
+    - assets/group-9.png
+    - assets/group-50.png
+    - assets/line-24.png
+    - assets/group-239.png
+    - assets/ion-book-e12.png
+    - assets/group-47.png
+    - assets/-a2x.png
+    - assets/group-244.png
+    - assets/rectangle-76-FqE.png
+    - assets/rectangle-25.png
+    - assets/line-31-9Wc.png
+    - assets/group-254.png
+    - assets/rectangle-29.png
+    - assets/rectangle-31.png
+    - assets/on-off-button.png
+    - assets/auto-group-stzk.png
+    - assets/vector.png
+    - assets/line-39.png
+    - assets/line-3.png
+    - assets/line-31-3Xi.png
+    - assets/group-6.png
+    - assets/group-9-9B2.png
+    - assets/untitled-design5-1.png
+    - assets/line-11.png
+    - assets/auto-group-emzu.png
+    - assets/screenshot-2023-03-18-at-1551-1.png
+    - assets/line-30-fjr.png
+    - assets/icon-trending-down-outline.png
+    - assets/group-248.png
+    - assets/rectangle-35.png
+    - assets/untitled-1-4.png
+    - assets/untitled-1-3.png
+    - assets/line-26.png
+    - assets/line-25.png
+    - assets/line-28-xNp.png
+    - assets/group-49.png
+    - assets/-HAC.png
+    - assets/line-5-3fA.png
+    - assets/-qCg.png
+    - assets/group-46.png
+    - assets/screenshot-2023-03-19-at-352-1.png
+    - assets/user.png
+    - assets/group-8-DYQ.png
+    - assets/line-27.png
+    - assets/vector-dKr.png
+    - assets/-EaG.png
+    - assets/untitled-1-1.png
+    - assets/group-89.png
+    - assets/rectangle-76-SM2.png
+    - assets/group-90.png
+    - assets/untitled-1-2.png
+    - assets/group-88.png
+    - assets/group-85.png
+    - assets/screenshot-2023-03-18-at-1624-1.png
+    - assets/group-87.png
+    - assets/screenshot-2023-03-18-at-1630-1.png
+    - assets/group-86.png
+    - assets/screenshot-2023-03-18-at-1643-1.png
+    - assets/ellipse-10-bg.png
+    - assets/group-84.png
+    - assets/line-16.png
+    - assets/-xvY.png
+    - assets/untitled-design17-1.png
+    - assets/untitled-design17-1-JrQ.png
+    - assets/auto-group-o7pp.png
+    - assets/line-32-cvQ.png
+    - assets/ellipse-14-bg.png
+    - assets/screenshot-2023-03-18-at-1627-1.png
+    - assets/screenshot-2023-03-18-at-1641-1.png
+    - assets/-eqz.png
+    - assets/auto-group-5bba.png
+    - assets/screenshot-2023-03-18-at-1825-1.png
+    - assets/ellipse-10-bg-QiQ.png
+    - assets/screenshot-2023-03-18-at-1647-1.png
+    - assets/ellipse-12-bg.png
+    - assets/line-32-rBW.png
+    - assets/fa-group-eZA.png
+    - assets/screenshot-2023-03-18-at-1628-1.png
+    - assets/ion-book-8Wp.png
+    - assets/line-18.png
+    - assets/icon-running.png
+    - assets/line-32-r76.png
+    - assets/ellipse-13-bg.png
+    - assets/auto-group-a5de.png
+    - assets/auto-group-u1fi.png
+    - assets/icon-user-cirlce-add.png
+    - assets/fa-group-31n.png
+    - assets/auto-group-ewnp.png
+    - assets/emoji-clinking-beer-mugs.png
+    - assets/line-14.png
+    - assets/line-22.png
+    - assets/icon-soda-can-thin.png
+    - assets/auto-group-agwn.png
+    - assets/line-15.png
+    - assets/ellipse-15-bg.png
+    - assets/group-277.png
+    - assets/line-21.png
+    - assets/line-11-mCG.png
+    - assets/icon-filter.png
+    - assets/line-23.png
+    - assets/line-19.png
+    - assets/line-16-FbS.png
+    - assets/group-277-JJp.png
+    - assets/line-17.png
+    - assets/game-icons-progression-U7E.png
+    - assets/icon-check-circle.png
+    - assets/group-84-c5r.png
+    - assets/group-127.png
+    - assets/line-20.png
+    - assets/group-277-75W.png
+    - assets/icon-user-cirlce-add-ZUG.png
+    - assets/fa-group-4Gt.png
+    - assets/fa-group-6qA.png
+    - assets/game-icons-progression-cVr.png
+    - assets/icon-running-SrY.png
+    - assets/fa-group-324.png
+    - assets/ion-book-sak.png
+    - assets/ion-book-LYC.png
+    - assets/game-icons-progression-rQ4.png
+    - assets/game-icons-progression-q7S.png
+    - assets/ion-book-Yxt.png
+    - assets/game-icons-progression-JBN.png
+    - assets/ellipse-11-bg.png
+    - assets/ion-book-KXi.png
+    - assets/game-icons-progression-Yvg.png
+    - assets/ion-book-cGt.png
+    - assets/fa-group-5Wc.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
